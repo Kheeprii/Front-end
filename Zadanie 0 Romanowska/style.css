@@ -1,0 +1,127 @@
+body
+{
+    background-color: white;
+}
+
+h3
+{
+    text-align: center;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    margin-top: 25px;
+    float: left;
+}
+
+.links
+{
+    float: right;
+    background-color: burlywood;
+    margin-top: 60px;
+    margin-right: 39px;
+    
+}
+
+.links a
+{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;   
+}
+
+.links a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
+#picture
+{
+    clear: both;
+    margin-right: 300px;  
+}
+
+#text1
+{
+    float: left;
+}
+
+#text2
+{
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#text3
+{
+    float: left;
+}
+
+.g
+{
+    word-wrap: break-word;
+    text-align: left;
+    width: 280px; 
+    height: 350px;
+    margin:auto;
+    padding-bottom: 130px;
+}
+
+#ad
+{
+    clear: both;
+    background-color: white;
+    margin: auto;
+    border: 3px;
+    border-color: gray;
+    border-style: solid;
+    padding: 10px;
+
+}
+
+.button
+{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 4px;
+    width: 150px;
+    line-height: 40px;
+    display: inline-block;
+    font-weight: 600;
+    position: absolute;
+    top: 211%;
+    right: 20%;
+}
+
+.button:hover
+{
+    background-color: gray;
+    color: whitesmoke;
+    border-bottom: 2px solid gray;
+}
+
+#footer
+{
+    clear: both;
+}
+
+#footer2
+{
+    float: right;
+    margin-right: 39px;
+}
