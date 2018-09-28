@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <title>Karuzela</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="owl.carousel.css" type="text/css"/>
+    <link rel="stylesheet" href="owl.theme.default.min.css" type="text/css"/>
+    
+    <style type="text/css">
+        
+        .picture
+        {
+            float: left;
+            padding-top: 60px;
+        }
+        
+        .container 
+        {
+            max-width: 1200px;
+            margin: 0 auto;
+            clear: both;
+        }
+
+    </style>
+    
+</head>
+
+<doby>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="owl.carousel.js"></script>
+    
+    <div class="carousel">
+        <div class="container">
+            <div class="owl-carousel owl theme">
+            
+            <div class="picture">
+                <img src="pic1.jpg" height="200px" width="350px"/>
+            </div>
+            
+            <div class="picture">
+                <img src="pic2.jpg" height="200px" width="350px"/>
+            </div>
+            
+            <div class="picture">
+                <img src="pic3.jpg" height="200px" width="350px"/>
+            </div>
+            
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <script>
+    
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    
+    </script>
+    
+</doby>    
+    
+</html>
